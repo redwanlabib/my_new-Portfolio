@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide{
+    display: flex !important;
+    justify-content: center !important;
+}
+.slick-dots li button:before { 
+    font-size: 6px;
+    color: #fff;
+}
+.slick-dots li.slick-active button:before { 
+    font-size:12px;
+    color: #0095B4;
+}
+.active{
+    color: #00D8FF;
+}
